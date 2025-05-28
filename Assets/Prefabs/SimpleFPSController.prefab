@@ -302,7 +302,7 @@ GameObject:
   - component: {fileID: 8301348219261518493}
   - component: {fileID: 8301348219248594139}
   m_Layer: 0
-  m_Name: FirstPersonCharacter
+  m_Name: Camara
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
