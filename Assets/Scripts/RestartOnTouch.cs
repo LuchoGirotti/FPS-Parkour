@@ -20,7 +20,6 @@ public class RestartOnTouch : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log(gameObject.name + ": Choqué con " + collision.gameObject.name);
         if (collision.gameObject.name == "Player")
         {
             SceneManager.LoadScene("Parkour");
