@@ -6,7 +6,7 @@ using TMPro;
 public class MoneyManager : MonoBehaviour
 {
     public float money;
-    public TextMeshProUGUI cartel;
+    public TextMeshProUGUI cartelDinero;
 
     public bool UpdateMoney(float amount)
     {
@@ -24,6 +24,6 @@ public class MoneyManager : MonoBehaviour
 
     public void Update()
     {
-        cartel.text = "$" + money;
+        cartelDinero.text = "$" + money;
     }
 }
